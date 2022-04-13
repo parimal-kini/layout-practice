@@ -1,0 +1,59 @@
+body{
+    background-image: url(../assets/abstract-background-illustration-watercolor-blue.webp);
+    background-size: cover;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(9, 76, 76);
+    color: white;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+h1{
+    margin-bottom: 80px;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 5rem;
+}
+ul li a{
+    text-decoration: none;
+    color: white;    
+} 
+a:hover{
+    color: antiquewhite;
+}
+
+
+.main{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.secondary{
+    background-color: teal;
+}
+.one, .two{
+    grid-column-end: span 2;
+}
+ .three{
+     grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    /* grid-row-end: span 2; */
+}
+
+footer{
+    background-color: rgb(96, 132, 132);
+    padding: 50px;
+    text-align: center;
+    margin-top: 20px;
+}

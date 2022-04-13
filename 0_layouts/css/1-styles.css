@@ -1,0 +1,45 @@
+body{
+    background-color: #006778;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 20px;
+    margin: 18px;
+}
+
+header{
+    background-color: #FFD124;
+    border: 2px solid;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;  /*to center the content */
+}
+
+section{
+    background-color: #8FBDD3;
+    border: 2px solid;
+    float: left;
+    width: 70%;
+    margin-bottom: 100px;
+    /* margin-top: 100px; this will only move section downwards not aside, so instead we put margin-bottom on header; */
+}
+
+aside{
+    background-color: #8FBDD3;
+    border: 2px solid;
+    float: right;
+    width: 25%;
+}
+
+footer{
+    background-color: #0093AB;
+    border: 2px solid;
+    padding: 50px 0;
+    text-align: center;
+    clear: both;
+}
