@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0;
+}
+img{
+    width: 100%;
+}
+.photo{
+  display: flex;
+  position: relative;
+}
+.text{
+    font-family:"Source Sans regular", Helvetica, sans-serif;
+    font-size:.6rem;
+    text-transform: uppercase;
+    position: absolute;
+    color: white;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+@media(max-width : 550px){
+    body{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
